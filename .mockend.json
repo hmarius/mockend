@@ -1,5 +1,10 @@
 {
   "User": {
     "title": { "string": {} }
-  }
+  },
+    "Device":{
+      "name": {"string":{}},
+      "description": {"string":{}},
+      "deviceId": {"int":{"min":1, "max":100}},
+      "isEnabled":{"boolean":{}}
 }
